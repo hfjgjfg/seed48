@@ -204,20 +204,8 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-    "onservice",
-    "inrealm",
-    "ingroup",
-    "inpm",
     "banhammer",
     "stats",
-    "anti_spam",
-    "owners",
-    "arabic_lock",
-    "set",
-    "get",
-    "broadcast",
-    "download_media",
-    "invite",
     "spam",
     "all",
     "leave_ban"
@@ -228,13 +216,13 @@ function create_config( )
     about_text = [[Teleseed v2 - Open Source
 An advance Administration bot based on yagop/telegram-bot 
 
-https://github.com/SEEDTEAM/TeleSeed
+https://github.com/
 
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
+@ [Founder]
+@ [Developer]
+@ [Developer]
+@ [Manager]
 
 Special thanks to
 awkward_potato
